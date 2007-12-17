@@ -12,7 +12,6 @@ Source0: %{oname}-%{version}.tar.bz2
 License: GPL
 Group: Development/Python
 Url: http://jtoolkit.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
 
