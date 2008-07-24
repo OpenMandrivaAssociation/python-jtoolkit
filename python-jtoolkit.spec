@@ -2,7 +2,7 @@
 %define pname jtoolkit
 %define name python-%{pname}
 %define version 0.7.8
-%define release %mkrel 1
+%define release %mkrel 3
 
 Summary: Web application framework
 Name: %{name}
