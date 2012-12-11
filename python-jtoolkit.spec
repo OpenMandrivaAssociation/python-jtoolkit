@@ -45,3 +45,36 @@ rm -rf %{buildroot}
 %{py_puresitedir}/*.egg-info
 
 
+
+
+%changelog
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.7.8-6mdv2010.0
++ Revision: 442202
+- rebuild
+
+* Sat Jan 03 2009 Funda Wang <fwang@mandriva.org> 0.7.8-5mdv2009.1
++ Revision: 323734
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 0.7.8-4mdv2009.0
++ Revision: 259651
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.7.8-3mdv2009.0
++ Revision: 247493
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.7.8-1mdv2008.1
++ Revision: 136450
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Jan 12 2007 Olivier Blin <oblin@mandriva.com> 0.7.8-1mdv2007.0
++ Revision: 108002
+- buildrequire python-devel
+- initial python-jtoolkit release
+- Create python-jtoolkit
+
